@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('index', 'App\Http\Controllers\SystemController@index');
+/* Home Front-end*/
+Route::get('initial', 'App\Http\Controllers\SystemController@indexFront');

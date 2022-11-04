@@ -11,9 +11,9 @@ class SystemController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function indexFront()
     {
-        return view('index');
+        return view('front.initial');
     }
 
     /**
