@@ -18,14 +18,14 @@
 			<!--end::Heaeder menu toggle-->
 			<!--begin::Logo-->
 			<a href="?page=index">
-				<img alt="Logo" src="assets/front/media/logos/logo_white1.png" class="h-50px h-lg-60px" />
+				<img alt="Logo" src="assets/front/media/logos/logo_white1.png" class="h-50px h-lg-55px" />
 			</a>
 			<!--end::Logo-->
 			<!--begin::Nav-->
 			<div class="ms-5 ms-md-10 me-3">
 				<!--begin::Toggle-->
-				<button type="button" class="btn btn-nav btn-outline btn-flex btn-active-color-white align-items-center justify-content-center justify-content-md-between align-items-lg-cenrer flex-md-content-between btn-color-gray-500 px-0 ps-md-5 pe-md-4 h-30px w-30px h-md-35px w-md-175px" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start">
-					<span class="fs-7 d-none d-md-inline">Select project</span>
+				<button type="button" class="btn btn-flex align-items-center justify-content-center justify-content-md-between align-items-lg-center flex-md-content-between btn-success text-uppercase px-0 ps-md-6 pe-md-5 h-30px w-30px h-md-35px w-md-200px" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start">
+					<span class="fs-7 d-none d-md-inline">Acesso Rápido</span>
 					<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
 					<span class="svg-icon svg-icon-4 ms-md-4 me-0">
 						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +39,7 @@
 				<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg fw-semibold w-200px pb-3" data-kt-menu="true">
 					<!--begin::Menu item-->
 					<div class="menu-item px-3">
-						<div class="menu-content fs-7 text-dark fw-bold px-3 py-4">Select project:</div>
+						<div class="menu-content fs-7 text-dark text-uppercase fw-bold px-3 py-4">Serviços</div>
 					</div>
 					<!--end::Menu item-->
 					<!--begin::Menu separator-->
@@ -47,45 +47,23 @@
 					<!--end::Menu separator-->
 					<!--begin::Menu item-->
 					<div class="menu-item px-3">
-						<a href="#" class="menu-link px-3">Accounting App</a>
+						<a href="#" class="menu-link px-3">Portal Municipal</a>
 					</div>
 					<!--end::Menu item-->
 					<!--begin::Menu item-->
 					<div class="menu-item px-3">
-						<a href="#" class="menu-link px-3">HR Dashbaord</a>
+						<a href="#" class="menu-link px-3">Portal de Transparência</a>
 					</div>
 					<!--end::Menu item-->
 					<!--begin::Menu item-->
 					<div class="menu-item px-3">
-						<a href="#" class="menu-link px-3">Reporting Tool</a>
-					</div>
-					<!--end::Menu item-->
-					<!--begin::Menu item-->
-					<div class="menu-item px-3">
-						<a href="#" class="menu-link px-3">Warehouse CRM</a>
-					</div>
-					<!--end::Menu item-->
-					<!--begin::Menu item-->
-					<div class="menu-item px-3">
-						<a href="#" class="menu-link px-3">eCommerce CMS</a>
+						<a href="#" class="menu-link px-3">Portal de Licitações</a>
 					</div>
 					<!--end::Menu item-->
 				</div>
 				<!--end::Menu-->
 			</div>
 			<!--end::Nav-->
-			<!--begin::Button-->
-			<a href="#" class="btn btn-create btn-active-primary btn-icon w-30px h-30px w-md-35px h-md-35px" data-bs-toggle="modal" data-bs-target="#kt_modal_create_project">
-				<!--begin::Svg Icon | path: icons/duotune/arrows/arr087.svg-->
-				<span class="svg-icon svg-icon-1">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<rect opacity="0.5" x="11" y="18" width="12" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
-						<rect x="6" y="11" width="12" height="2" rx="1" fill="currentColor" />
-					</svg>
-				</span>
-				<!--end::Svg Icon-->
-			</a>
-			<!--end::Button-->
 		</div>
 		<!--end::Header Logo-->
 		<!--layout-partial:layout/header/__topbar.html-->
