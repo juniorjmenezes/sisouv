@@ -1,5 +1,5 @@
 <!--begin::Menu toggle-->
-<a href="#" class="btn btn-icon btn-custom w-30px h-30px w-md-40px h-md-40px btn-color-warning" data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+<a href="#" class="btn btn-icon btn-color-white bg-hover-white bg-hover-opacity-10" data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
 	<!--begin::Svg Icon | path: icons/duotune/general/gen060.svg-->
 	<span class="svg-icon theme-light-show svg-icon-2">
 		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+:root,
+[data-theme="light"] {
+  --gb-color-1: #08474c;
+  --gb-color-2: #14753c;
+  --gb-pattern-1: url('../media/patterns/bg-body.png');
+}
+.bg-color-1 {
+    background-color: var(--gb-color-1) !important;
+}
+.bg-color-2 {
+    background-color: var(--gb-color-2) !important;
+}
+.bg-body-1 {
+    background-image: var(--gb-pattern-1) !important;
+}

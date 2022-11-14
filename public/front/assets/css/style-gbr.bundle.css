@@ -1,0 +1,20 @@
+/* GBR */
+@charset "UTF-8";
+:root,
+[data-theme="light"] {
+  --gb-color-1: #166353;
+  --gb-color-2: #14753c;
+  --gb-pattern-1: url('../media/patterns/wavecut.png');
+}
+.bg-gbr-color-1 {
+    background-color: var(--gb-color-1) !important;
+}
+.bg-gbr-color-2 {
+    background-color: var(--gb-color-2) !important;
+}
+.bg-gbr-img-1 {
+    background-image: var(--gb-pattern-1) !important;
+}
+.app-header-secondary  {
+    border-bottom: 2px solid #50CD89;   
+}
