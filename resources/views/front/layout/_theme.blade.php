@@ -27,7 +27,7 @@ License: For each use you must have a valid license purchased only from above li
 		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
 		<link rel="shortcut icon" href="front/assets/media/logos/favicon.ico" />
 		<!--begin::Fonts(mandatory for all pages)-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500,700|Google+Sans+Text:400,400italic,500,500italic,700,700italic|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&amp;display=swap">
 		<!--end::Fonts-->
 		<!--begin::Vendor Stylesheets(used for this page only)-->
 		<link href="front/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
@@ -50,7 +50,8 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::App-->
 		<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
 			<!--begin::Page-->
-			<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+			<!--ATENÇÃO!! COLOCAR ISSO NO CSS!! ATENÇÃO!! ATENÇÃO!! ATENÇÃO!! -->
+			<div class="app-page flex-column flex-column-fluid bg-secondary" id="kt_app_page">
 				<!--layout-partial:layout/partials/_header.html-->
 				@include('front.layout.partials._header')
 				<!--begin::Wrapper-->

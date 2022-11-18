@@ -45,7 +45,8 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 24, 28, 50;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: Inter, Helvetica, "sans-serif";
+  /*--bs-font-sans-serif: Inter, Helvetica, "sans-serif";*/
+  --bs-font-sans-serif: 'Google Sans Text', Helvetica, "sans-serif";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
@@ -25277,14 +25278,16 @@ fieldset:disabled .btn {
   --kt-gray-900-rgb: 24, 28, 50;
   --kt-white: #ffffff;
   --kt-light: #f5f8fa;
-  --kt-primary: #50cd89;
+  /*--kt-primary: #50cd89;*/
+  --kt-primary: #307466;
   --kt-secondary: #e4e6ef;
   --kt-success: #00b2ff;
   --kt-info: #7239ea;
   --kt-warning: #ffc700;
   --kt-danger: #f1416c;
   --kt-dark: #181c32;
-  --kt-primary-active: #47be7d;
+  /*--kt-primary-active: #47be7d;*/
+  --kt-primary-active: #2b665a;
   --kt-secondary-active: #b5b5c3;
   --kt-light-active: #eff2f5;
   --kt-success-active: #0098da;
@@ -48053,7 +48056,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   font-size: 13px !important;
   font-weight: 400;
-  font-family: Inter, Helvetica, sans-serif;
+  /*font-family: Inter, Helvetica, sans-serif;*/
+  font-family: 'Google Sans Text', Helvetica, sans-serif;
 }
 @media (max-width: 991.98px) {
   body,
@@ -48364,7 +48368,7 @@ body {
   }
   :root {
     /*--kt-app-header-primary-height: 77px;*/
-    --kt-app-header-primary-height: 100px;
+    --kt-app-header-primary-height: 140px;
   }
   [data-kt-app-header-sticky="on"] {
     --kt-app-header-primary-height: 70px;

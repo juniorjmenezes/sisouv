@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use GoogleMaps;
 
 class SystemController extends Controller
 {
@@ -13,7 +14,17 @@ class SystemController extends Controller
      */
     public function indexFront()
     {
-        return view('front.initial');
+        $initialMarkers = [
+            [
+                'position' => [
+                    'lat' => -2.9305436396575684,
+                    'lng' => -40.180645686506615
+                ],
+                'label' => [ 'color' => 'white', 'text' => 'O' ],
+                'draggable' => false
+            ],
+        ];
+        return view('front.initial', compact('initialMarkers'));
     }
 
     /**

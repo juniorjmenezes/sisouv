@@ -119,10 +119,9 @@
 						<!--begin:Menu link-->
 						<span class="menu-link py-3">
 							<span class="menu-title">
-								<span class="menu-text text-uppercase fs-6 mb-0">Ouvidoria</span>
-								<span class="menu-desc text-uppercase">Manifeste-se!</span>
+								<span class="menu-text text-uppercase font-gbr-1 fs-7 mb-0">Ouvidoria</span>
 							</span>
-							<span class="menu-arrow d-lg-none"></span>
+							<span class="menu-arrow d-lg-flex"></span>
 						</span>
 						<!--end:Menu link-->
 						<!--begin:Menu sub-->
@@ -138,10 +137,9 @@
 						<!--begin:Menu link-->
 						<span class="menu-link py-3">
 							<span class="menu-title">
-								<span class="menu-text text-uppercase fs-6 mb-0">Pages</span>
-								<span class="menu-desc">Pages & Utilities</span>
+								<span class="menu-text text-uppercase font-gbr-1 fs-7 mb-0">Acesso à Informação</span>
 							</span>
-							<span class="menu-arrow d-lg-none"></span>
+							<span class="menu-arrow d-lg-flex"></span>
 						</span>
 						<!--end:Menu link-->
 						<!--begin:Menu sub-->
@@ -157,10 +155,9 @@
 						<!--begin:Menu link-->
 						<span class="menu-link py-3">
 							<span class="menu-title">
-								<span class="menu-text text-uppercase fs-6 mb-0">Apps</span>
-								<span class="menu-desc">Starter Applications</span>
+								<span class="menu-text text-uppercase font-gbr-1 fs-7 mb-0">Transparência</span>
 							</span>
-							<span class="menu-arrow d-lg-none"></span>
+							<span class="menu-arrow d-lg-flex"></span>
 						</span>
 						<!--end:Menu link-->
 						<!--begin:Menu sub-->
@@ -1388,10 +1385,9 @@
 						<!--begin:Menu link-->
 						<span class="menu-link py-3">
 							<span class="menu-title">
-								<span class="menu-text text-uppercase fs-6 mb-0">Resources</span>
-								<span class="menu-desc">Docs & Layout Builder</span>
+								<span class="menu-text text-uppercase font-gbr-1 fs-7 mb-0">Serviços</span>
 							</span>
-							<span class="menu-arrow d-lg-none"></span>
+							<span class="menu-arrow d-lg-flex"></span>
 						</span>
 						<!--end:Menu link-->
 						<!--begin:Menu sub-->
@@ -1481,8 +1477,7 @@
 						<!--begin:Menu link-->
 						<a class="menu-link py-3" href="https://devs.keenthemes.com">
 							<span class="menu-title">
-								<span class="menu-text text-uppercase fs-6 mb-0">Help</span>
-								<span class="menu-desc">Devs Community</span>
+								<span class="menu-text text-uppercase font-gbr-1 fs-7 mb-0">Portal Oficial</span>
 							</span>
 						</a>
 						<!--end:Menu link-->

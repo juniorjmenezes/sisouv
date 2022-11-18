@@ -9,6 +9,9 @@
 .bg-gbr-color-1 {
     background-color: var(--gb-color-1) !important;
 }
+.text-gbr-color-1 {
+    color: var(--gb-color-1) !important;
+}
 .bg-gbr-color-2 {
     background-color: var(--gb-color-2) !important;
 }
@@ -16,5 +19,8 @@
     background-image: var(--gb-pattern-1) !important;
 }
 .app-header-secondary  {
-    border-bottom: 2px solid #50CD89;   
+    border-bottom: 3px solid var(--kt-primary);   
+}
+.font-gbr-1 {
+    font-family: 'Google Sans';
 }
