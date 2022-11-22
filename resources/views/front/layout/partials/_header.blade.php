@@ -1,7 +1,7 @@
 <!--begin::Header-->
 <div id="kt_app_header" class="app-header">
 	<!--begin::Header primary-->
-	<div class="app-header-primary bg-gbr-color-1 bg-gbr-img-1">
+	<div class="app-header-primary bg-primary gbr-texture-1">
 		<!--begin::Header primary container-->
 		<div class="app-container container-xxl d-flex align-items-stretch justify-content-between">
 			<!--begin::Logo and search-->
@@ -22,7 +22,7 @@
 					<!--end::Header secondary toggle-->
 					<!--begin::Logo-->
 					<a href="?page=index" class="d-flex align-items-center">
-						<img alt="Logo" src="front/assets/media/logos/logo_2.png" class="h-25px h-lg-50px" />
+						<img alt="Logo" src="<?= asset('front/assets/media/logos/logo_2.png') ?>" class="h-25px h-lg-50px" />
 					</a>
 					<!--end::Logo-->
 				</div>
@@ -80,7 +80,7 @@
 				<!--begin::User-->
 				<div class="app-navbar-item" id="kt_header_user_menu_toggle">
 					<!--begin::User info-->
-					<div class="btn btn-flex align-items-center bg-hover-white bg-hover-opacity-10 py-2 px-2 px-md-3" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+					<div class="btn btn-flex align-items-center bg-hover-white bg-hover-opacity-10 py-2 px-2 px-md-3" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start">
 						<!--begin::Name-->
 						<div class="d-none d-md-flex flex-column align-items-end justify-content-center me-2 me-md-4">
 							<span class="text-white fs-8 fw-bold lh-1 mb-1">Max</span>
@@ -89,7 +89,7 @@
 						<!--end::Name-->
 						<!--begin::Symbol-->
 						<div class="symbol symbol-30px symbol-md-40px">
-							<img src="front/assets/media/avatars/300-1.jpg" alt="image" />
+							<img src="<?= asset('front/assets/media/avatars/300-1.jpg') ?>" alt="image" />
 						</div>
 						<!--end::Symbol-->
 					</div>

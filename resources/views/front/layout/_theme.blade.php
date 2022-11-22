@@ -30,13 +30,13 @@ License: For each use you must have a valid license purchased only from above li
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500,700|Google+Sans+Text:400,400italic,500,500italic,700,700italic|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&amp;display=swap">
 		<!--end::Fonts-->
 		<!--begin::Vendor Stylesheets(used for this page only)-->
-		<link href="front/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="front/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="<?= asset('front/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css') ?>" rel="stylesheet" type="text/css" />
+		<link href="<?= asset('front/assets/plugins/custom/datatables/datatables.bundle.css') ?>" rel="stylesheet" type="text/css" />
 		<!--end::Vendor Stylesheets-->
 		<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-		<link href="front/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="front/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="front/assets/css/style-gbr.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="<?= asset('front/assets/plugins/global/plugins.bundle.css" rel="stylesheet') ?>" type="text/css" />
+		<link href="<?= asset('front/assets/css/style.bundle.css') ?>" rel="stylesheet" type="text/css" />
+		<link href="<?= asset('front/assets/css/style-gbr.bundle.css') ?>" rel="stylesheet" type="text/css" />
 		<!--end::Global Stylesheets Bundle-->
 	</head>
 	<!--end::Head-->
@@ -96,11 +96,11 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Javascript-->
 		<script>var hostUrl = "front/assets/";</script>
 		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-		<script src="front/assets/plugins/global/plugins.bundle.js"></script>
-		<script src="front/assets/js/scripts.bundle.js"></script>
+		<script src="<?= asset('front/assets/plugins/global/plugins.bundle.js') ?>"></script>
+		<script src="<?= asset('front/assets/js/scripts.bundle.js') ?>"></script>
 		<!--end::Global Javascript Bundle-->
 		<!--begin::Vendors Javascript(used for this page only)-->
-		<script src="front/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<script src="<?= asset('front/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js') ?>"></script>
 		<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
@@ -112,13 +112,13 @@ License: For each use you must have a valid license purchased only from above li
 		<script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-		<script src="front/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<script src="<?= asset('front/assets/plugins/custom/datatables/datatables.bundle.js') ?>"></script>
 		<!--end::Vendors Javascript-->
 		<!--begin::Custom Javascript(used for this page only)-->
-		<script src="front/assets/js/widgets.bundle.js"></script>
-		<script src="front/assets/js/custom/widgets.js"></script>
-		<script src="front/assets/js/custom/apps/chat/chat.js"></script>
-		<script src="front/assets/js/custom/utilities/modals/users-search.js"></script>
+		<script src="<?= asset('front/assets/js/widgets.bundle.js') ?>"></script>
+		<script src="<?= asset('front/assets/js/custom/widgets.js') ?>"></script>
+		<script src="<?= asset('front/assets/js/custom/apps/chat/chat.js') ?>"></script>
+		<script src="<?= asset('front/assets/js/custom/utilities/modals/users-search.js') ?>"></script>
 		@yield('scripts')
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->

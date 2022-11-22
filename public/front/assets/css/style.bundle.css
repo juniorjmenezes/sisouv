@@ -25320,7 +25320,8 @@ fieldset:disabled .btn {
   --kt-danger-rgb: 241, 65, 108;
   --kt-dark-rgb: 24, 28, 50;
   --kt-text-white: #ffffff;
-  --kt-text-primary: #50cd89;
+  /*--kt-text-primary: #50cd89;*/
+  --kt-text-primary: #307466;
   --kt-text-secondary: #e4e6ef;
   --kt-text-light: #f5f8fa;
   --kt-text-success: #00b2ff;

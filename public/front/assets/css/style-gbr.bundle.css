@@ -4,23 +4,13 @@
 [data-theme="light"] {
   --gb-color-1: #166353;
   --gb-color-2: #14753c;
-  --gb-pattern-1: url('../media/patterns/wavecut.png');
+  --gb-color-1-inverse: white;
+  --gb-font-1: 'Google Sans';
+  --gb-texture-1: url('../media/patterns/wavecut.png');
 }
-.bg-gbr-color-1 {
-    background-color: var(--gb-color-1) !important;
+.gbr-font-1 {
+    font-family: var(--gb-font-1) !important;
 }
-.text-gbr-color-1 {
-    color: var(--gb-color-1) !important;
-}
-.bg-gbr-color-2 {
-    background-color: var(--gb-color-2) !important;
-}
-.bg-gbr-img-1 {
-    background-image: var(--gb-pattern-1) !important;
-}
-.app-header-secondary  {
-    border-bottom: 3px solid var(--kt-primary);   
-}
-.font-gbr-1 {
-    font-family: 'Google Sans';
+.gbr-texture-1 {
+    background-image: var(--gb-texture-1) !important;
 }

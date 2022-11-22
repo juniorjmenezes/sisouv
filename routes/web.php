@@ -19,3 +19,6 @@ Route::get('/', function () {
 
 /* Home Front-end*/
 Route::get('initial', 'App\Http\Controllers\SystemController@indexFront');
+
+/* Manifestations Blades */
+Route::get('manifestations/add', 'App\Http\Controllers\ManifestationsController@create');

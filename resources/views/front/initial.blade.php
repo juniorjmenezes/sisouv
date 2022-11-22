@@ -10,7 +10,7 @@
 				<!--begin::Card body-->
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase font-gbr-1 fs-7">Faça sua Manifestação</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Faça sua Manifestação</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-secondary w-100px mb-6"></div>
@@ -22,10 +22,7 @@
 					<!--end::Text-->
 					<div class="d-flex flex-column flex-sm-row d-grid gap-2 mt-8">
 						<!--begin::Button-->
-						<a href="#" class="btn btn-sm btn-primary text-uppercase flex-shrink-0 me-lg-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Criar Cadastro</a>
-						<!--end::Button-->
-						<!--begin::Button-->
-						<a href="#" class="btn btn-sm btn-danger text-uppercase flex-shrink-0" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Criar Manifestação Anônima</a>
+						<a href="#" class="btn btn-sm btn-primary text-uppercase flex-shrink-0 me-lg-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Registrar Nova Manifestação</a>
 						<!--end::Button-->
 					</div>
 				</div>
@@ -39,7 +36,7 @@
 				<!--begin::Card body-->
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase font-gbr-1 fs-7">Acompanhar Manifestação</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Acompanhar Manifestação</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-secondary w-100px mb-6"></div>
@@ -75,7 +72,7 @@
 				<!--begin::Card body-->
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase font-gbr-1 fs-7">Estatísticas de Ouvidoria</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Estatísticas de Ouvidoria</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-primary w-100px mb-6"></div>
@@ -191,7 +188,7 @@
 			<div class="card card-flush">
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase font-gbr-1 fs-7">Canais de Atendimento</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Canais de Atendimento</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-secondary w-100px mb-6"></div>
