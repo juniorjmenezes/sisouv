@@ -9,134 +9,114 @@
             <!--begin::Card header-->
             <div class="card-header">
                 <!--begin::Title-->
-                <div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Faça sua Manifestação!</div>
+                <div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Acompanhe sua Manifestação</div>
                 <!--end::Title-->
-                <!--begin::Card toolbar-->
                 <div class="card-toolbar">
-                    <div class="form-check form-switch form-check-custom form-check-solid">
-                        <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault"/>
-                        <label class="form-check-label text-uppercase gbr-font-1 fs-7" for="flexSwitchDefault">
-                            Manifestação Anônima
-                        </label>
+                    <div class="mb-0 lh-1">
+                        <span class="badge badge-primary badge-circle w-10px h-10px me-1"></span>
+                        <span class="fs-7 fw-semibold text-gray-600 text-uppercase gbr-font-1">Tramitando</span>
                     </div>
                 </div>
-                <!--begin::Card toolbar-->
             </div>
             <!--end::Card header-->
             <!--begin::Card body-->
             <div class="card-body">
                 <!--begin::Row-->
-                <div class="row mb-5">
-                    <div class="col-lg-12 col-xl-12">
-                        <label class="form-label">Nome</label>
-                        <input type="text" class="form-control form-control-solid" placeholder="Digite seu nome completo..."/>
-                    </div>
-                </div>
-                <!--end::Row-->
-                <!--begin::Row-->
-                <div class="row mb-5">
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Data de Nascimento</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Grau de Instrução</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Sexo</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                </div>
-                <!--end::Row-->
-                <!--begin::Row-->
-                <div class="row mb-5">
-                    <div class="col-lg-12 col-xl-8">
-                        <label class="form-label">Logradouro</label>
-                        <input type="text" class="form-control form-control-solid" placeholder="Avenida, Rua, Travessa..."/>
-                    </div>
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Número</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                </div>
-                <!--end::Row-->
-                <!--begin::Row-->
-                <div class="row mb-5">
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Bairro</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Estado</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Município</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                </div>
-                <!--end::Row-->
-                <!--begin::Row-->
-                <div class="row">
-                    <div class="col-lg-12 col-xl-8">
-                        <label class="form-label">E-mail</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <div class="col-lg-12 col-xl-4">
-                        <label class="form-label">Telefone Celular</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                </div>
-                <!--end::Row-->
-                <!--begin::Separator-->
-                <div class="separator separator-dashed my-10"></div>
-                <!--end::Separator-->
-                <!--begin::Row-->
-                <div class="row mb-5">
-                    <!--begin::Col-->
-                    <div class="col-lg-12 col-xl-6">
-                        <label class="form-label">Direcionamento</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <!--end::Col-->
-                    <!--begin::Col-->
-                    <div class="col-lg-12 col-xl-6">
-                        <label class="form-label">Natureza da Manifestação</label>
-                        <input type="text" class="form-control form-control-solid" placeholder=""/>
-                    </div>
-                    <!--end::Col-->
-                </div>
-                <!--end::Row-->
-                <!--begin::Row-->
-                <div class="row">
-                    <!--begin::Col-->
-                    <div class="col-lg-12">
-                        <!--begin::Input-->
-                        <label class="form-label">Mensagem</label>
-                        <textarea class="form-control form-control-solid mb-10" rows="5" data-kt-element="input" placeholder="Seja o mais claro e objetivo possível."></textarea>
-                        <!--end::Input-->
-                        <!--begin:Toolbar-->
-                        <div class="d-flex flex-stack">
-                            <!--begin::Actions-->
-                            <div class="d-flex align-items-center me-2">
-                                <button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button" data-bs-toggle="tooltip" aria-label="Coming soon" data-bs-original-title="Coming soon" data-kt-initialized="1">
-                                    <i class="bi bi-paperclip fs-3"></i>
-                                </button>
-                                <button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button" data-bs-toggle="tooltip" aria-label="Coming soon" data-bs-original-title="Coming soon" data-kt-initialized="1">
-                                    <i class="bi bi-upload fs-3"></i>
-                                </button>
-                            </div>
-                            <!--end::Actions-->
-                            <!--begin::Send-->
-                            <button class="btn btn-sm btn-primary text-uppercase" type="button" data-kt-element="send">Enviar</button>
-                            <!--end::Send-->
+                <div class="m-0">
+                    <!--begin::Wrapper-->
+                    <div class="d-flex align-items-sm-center">
+                        <!--begin::Symbol-->
+                        <div class="symbol symbol-circle symbol-52px me-3">
+                            <span class="symbol-label bg-light-danger">
+                                <!--begin::Svg Icon-->
+                                <span class="svg-icon svg-icon-2x svg-icon-danger">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor"/>
+                                        <rect x="11" y="14" width="7" height="2" rx="1" transform="rotate(-90 11 14)" fill="currentColor"/>
+                                        <rect x="11" y="17" width="2" height="2" rx="1" transform="rotate(-90 11 17)" fill="currentColor"/>
+                                    </svg>
+                                </span>
+                                <!--end::Svg Icon-->
+                            </span>
                         </div>
-                        <!--end::Toolbar-->
+                        <!--end::Symbol-->
+                        <!--begin::Section-->
+                        <div class="d-flex align-items-center flex-row-fluid flex-wrap">
+                            <div class="flex-grow-1 me-2">
+                                <span class="text-gray-400 fs-7 fw-semibold">Assunto</span>
+                                <span class="text-gray-800 text-uppercase fw-bold d-block gbr-font-1 fs-7">Denúncia</span>
+                            </div>
+                            <span class="text-gray-700 text-uppercase fw-semibold d-block fs-2x">1355241122</span>
+                        </div>
+                        <!--end::Section-->
                     </div>
-                    <!--end::Row-->
+                    <!--end::Wrapper-->
+                    <!--begin::Timeline-->
+                    <div class="timeline border rounded p-5 mt-10">
+                        <!--begin::Timeline item-->
+                        <div class="timeline-item align-items-center mb-7">
+                            <!--begin::Timeline line-->
+                            <div class="timeline-line w-40px mt-6 mb-n12"></div>
+                            <!--end::Timeline line-->
+                            <!--begin::Timeline icon-->
+                            <div class="timeline-icon" style="margin-left: 8px">
+                                <!--begin::Svg Icon-->
+                                <span class="svg-icon svg-icon-success svg-icon-2x">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M16.5 9C16.5 13.125 13.125 16.5 9 16.5C4.875 16.5 1.5 13.125 1.5 9C1.5 4.875 4.875 1.5 9 1.5C13.125 1.5 16.5 4.875 16.5 9Z" fill="currentColor"/>
+                                        <path d="M9 16.5C10.95 16.5 12.75 15.75 14.025 14.55C13.425 12.675 11.4 11.25 9 11.25C6.6 11.25 4.57499 12.675 3.97499 14.55C5.24999 15.75 7.05 16.5 9 16.5Z" fill="currentColor"/>
+                                        <rect x="7" y="6" width="4" height="4" rx="2" fill="currentColor"/>
+                                    </svg>
+                                </span>
+                                <!--end::Svg Icon-->
+                            </div>
+                            <!--end::Timeline icon-->
+                            <!--begin::Timeline content-->
+                            <div class="timeline-content m-0">
+                                <!--begin::Title-->
+                                <span class="fs-7 text-gray-400 text-uppercase fw-semibold d-block">Em 24/11/2022 Você digitou:</span>
+                                <!--end::Title-->
+                                <!--begin::Title-->
+                                <span class="fs-7 fw-bold text-gray-800">Sou morador da Rua Celso Araújo e gostaria de denunciar o vandalismo frequente na praça vizinha.</span>
+                                <!--end::Title-->
+                            </div>
+                            <!--end::Timeline content-->
+                        </div>
+                        <!--end::Timeline item-->
+                        <!--begin::Timeline item-->
+                        <div class="timeline-item align-items-center">
+                            <!--begin::Timeline line-->
+                            <div class="timeline-line w-40px"></div>
+                            <!--end::Timeline line-->
+                            <!--begin::Timeline icon-->
+                            <div class="timeline-icon" style="margin-left: 8px">
+                                <!--begin::Svg Icon-->
+                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M16.5 9C16.5 13.125 13.125 16.5 9 16.5C4.875 16.5 1.5 13.125 1.5 9C1.5 4.875 4.875 1.5 9 1.5C13.125 1.5 16.5 4.875 16.5 9Z" fill="currentColor"/>
+                                        <path d="M9 16.5C10.95 16.5 12.75 15.75 14.025 14.55C13.425 12.675 11.4 11.25 9 11.25C6.6 11.25 4.57499 12.675 3.97499 14.55C5.24999 15.75 7.05 16.5 9 16.5Z" fill="currentColor"/>
+                                        <rect x="7" y="6" width="4" height="4" rx="2" fill="currentColor"/>
+                                    </svg>
+                                </span>
+                                <!--end::Svg Icon-->
+                            </div>
+                            <!--end::Timeline icon-->
+                            <!--begin::Timeline content-->
+                            <div class="timeline-content m-0">
+                                <!--begin::Title-->
+                                <span class="fs-7 text-gray-400 text-uppercase fw-semibold d-block">Em 24/11/2022 Ouvidoria respondeu:</span>
+                                <!--end::Title-->
+                                <!--begin::Title-->
+                                <span class="fs-7 fw-bold text-gray-800">Poderia nos repassar mais detalhes? Se possível faça upload de fotos do ocorrido.</span>
+                                <!--end::Title-->
+                            </div>
+                            <!--end::Timeline content-->
+                        </div>
+                        <!--end::Timeline item-->
+                    </div>
+                    <!--end::Timeline-->
                 </div>
-                <!--end::Row-->  
+                <!--end::Row-->
             </div>
             <!--end::Card body-->                 
         </div>
@@ -309,5 +289,42 @@
 @endsection
 
 @section('scripts')
-
+<script>
+      $("#open_date").daterangepicker({
+        singleDatePicker: true,
+        "locale": {
+            "format": "DD/MM/YYYY",
+            "separator": " - ",
+            "applyLabel": "Aplicar",
+            "cancelLabel": "Cancelar",
+            "fromLabel": "De",
+            "toLabel": "Até",
+            "customRangeLabel": "Custom",
+            "daysOfWeek": [
+                "Dom",
+                "Seg",
+                "Ter",
+                "Qua",
+                "Qui",
+                "Sex",
+                "Sáb"
+            ],
+            "monthNames": [
+                "Janeiro",
+                "Fevereiro",
+                "Março",
+                "Abril",
+                "Maio",
+                "Junho",
+                "Julho",
+                "Agosto",
+                "Setembro",
+                "Outubro",
+                "Novembro",
+                "Dezembro"
+            ],
+            "firstDay": 0
+        }
+      });
+</script>
 @endsection

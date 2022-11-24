@@ -9,8 +9,20 @@
   --gb-texture-1: url('../media/patterns/wavecut.png');
 }
 .gbr-font-1 {
-    font-family: var(--gb-font-1) !important;
+  font-family: var(--gb-font-1) !important;
 }
 .gbr-texture-1 {
-    background-image: var(--gb-texture-1) !important;
+  background-image: var(--gb-texture-1) !important;
+}
+.btn {
+  font-family: var(--gb-font-1) !important;
+}
+
+/* DateRange Picker Customize */
+.drp-calendar {
+  font-family: var(--gb-font-1) !important;
+}
+.drp-buttons button {
+  text-transform: uppercase !important;
+  font-family: var(--gb-font-1) !important;
 }

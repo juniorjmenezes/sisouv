@@ -22,3 +22,4 @@ Route::get('initial', 'App\Http\Controllers\SystemController@indexFront');
 
 /* Manifestations Blades */
 Route::get('manifestations/add', 'App\Http\Controllers\ManifestationsController@create');
+Route::get('manifestations/view', 'App\Http\Controllers\ManifestationsController@show');
