@@ -21,102 +21,92 @@
             <!--end::Card header-->
             <!--begin::Card body-->
             <div class="card-body">
-                <!--begin::Row-->
-                <div class="m-0">
-                    <!--begin::Wrapper-->
-                    <div class="d-flex align-items-sm-center">
+
+                <!--begin::Wrapper-->
+                <div class="d-flex align-items-sm-center mb-10">
+                    <!--begin::Symbol-->
+                    <div class="symbol symbol-circle symbol-52px me-3">
+                        <span class="symbol-label bg-light-danger">
+                            <!--begin::Svg Icon-->
+                            <span class="svg-icon svg-icon-2x svg-icon-danger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor"/>
+                                    <rect x="11" y="14" width="7" height="2" rx="1" transform="rotate(-90 11 14)" fill="currentColor"/>
+                                    <rect x="11" y="17" width="2" height="2" rx="1" transform="rotate(-90 11 17)" fill="currentColor"/>
+                                </svg>
+                            </span>
+                            <!--end::Svg Icon-->
+                        </span>
+                    </div>
+                    <!--end::Symbol-->
+                    <!--begin::Section-->
+                    <div class="d-flex align-items-center flex-row-fluid flex-wrap">
+                        <div class="flex-grow-1 me-2">
+                            <span class="text-gray-400 fw-semibold fs-7">Assunto</span>
+                            <span class="text-gray-800 text-uppercase fw-bold d-block gbr-font-1 fs-7">Denúncia</span>
+                        </div>
+                        <span class="text-gray-600 text-uppercase fw-semibold d-block fs-2hx">1355241122</span>
+                    </div>
+                    <!--end::Section-->
+                </div>
+                <!--end::Wrapper-->
+                <label for="" class="form-label fw-semibold mb-1">Evolução de sua Manifestação</label>
+                <div class="rounded border px-5 py-10">
+                    <div class="d-flex flex-row justify-content-end p-0">
+                        <div>
+                            <div class="p-4 me-3 mb-1 rounded" style="background-color: #f5f6f7;">
+                                <p class="text-muted mb-0">Você:</p>
+                                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                            <div class="small me-3 mb-3 rounded-3 text-muted float-end">12:00 PM | Aug 13</div>
+                        </div>
                         <!--begin::Symbol-->
-                        <div class="symbol symbol-circle symbol-52px me-3">
-                            <span class="symbol-label bg-light-danger">
+                        <div class="symbol symbol-circle symbol-40px me-3">
+                            <span class="symbol-label bg-light-success">
                                 <!--begin::Svg Icon-->
-                                <span class="svg-icon svg-icon-2x svg-icon-danger">
+                                <span class="svg-icon svg-icon-2x svg-icon-success">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="currentColor"/>
-                                        <rect x="11" y="14" width="7" height="2" rx="1" transform="rotate(-90 11 14)" fill="currentColor"/>
-                                        <rect x="11" y="17" width="2" height="2" rx="1" transform="rotate(-90 11 17)" fill="currentColor"/>
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24"/>
+                                            <rect fill="currentColor" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"/>
+                                            <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" fill="currentColor"/>
+                                        </g>
                                     </svg>
                                 </span>
                                 <!--end::Svg Icon-->
                             </span>
                         </div>
                         <!--end::Symbol-->
-                        <!--begin::Section-->
-                        <div class="d-flex align-items-center flex-row-fluid flex-wrap">
-                            <div class="flex-grow-1 me-2">
-                                <span class="text-gray-400 fs-7 fw-semibold">Assunto</span>
-                                <span class="text-gray-800 text-uppercase fw-bold d-block gbr-font-1 fs-7">Denúncia</span>
-                            </div>
-                            <span class="text-gray-700 text-uppercase fw-semibold d-block fs-2x">1355241122</span>
-                        </div>
-                        <!--end::Section-->
                     </div>
-                    <!--end::Wrapper-->
-                    <!--begin::Timeline-->
-                    <div class="timeline border rounded p-5 mt-10">
-                        <!--begin::Timeline item-->
-                        <div class="timeline-item align-items-center mb-7">
-                            <!--begin::Timeline line-->
-                            <div class="timeline-line w-40px mt-6 mb-n12"></div>
-                            <!--end::Timeline line-->
-                            <!--begin::Timeline icon-->
-                            <div class="timeline-icon" style="margin-left: 8px">
+                    <div class="d-flex flex-row justify-content-start">
+                        <!--begin::Symbol-->
+                        <div class="symbol symbol-circle symbol-40px me-3">
+                            <span class="symbol-label bg-light-success p-0">
                                 <!--begin::Svg Icon-->
-                                <span class="svg-icon svg-icon-success svg-icon-2x">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path opacity="0.3" d="M16.5 9C16.5 13.125 13.125 16.5 9 16.5C4.875 16.5 1.5 13.125 1.5 9C1.5 4.875 4.875 1.5 9 1.5C13.125 1.5 16.5 4.875 16.5 9Z" fill="currentColor"/>
-                                        <path d="M9 16.5C10.95 16.5 12.75 15.75 14.025 14.55C13.425 12.675 11.4 11.25 9 11.25C6.6 11.25 4.57499 12.675 3.97499 14.55C5.24999 15.75 7.05 16.5 9 16.5Z" fill="currentColor"/>
-                                        <rect x="7" y="6" width="4" height="4" rx="2" fill="currentColor"/>
+                                <span class="svg-icon svg-icon-2x svg-icon-success">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24"/>
+                                            <rect fill="currentColor" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"/>
+                                            <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" fill="currentColor"/>
+                                        </g>
                                     </svg>
                                 </span>
                                 <!--end::Svg Icon-->
-                            </div>
-                            <!--end::Timeline icon-->
-                            <!--begin::Timeline content-->
-                            <div class="timeline-content m-0">
-                                <!--begin::Title-->
-                                <span class="fs-7 text-gray-400 text-uppercase fw-semibold d-block">Em 24/11/2022 Você digitou:</span>
-                                <!--end::Title-->
-                                <!--begin::Title-->
-                                <span class="fs-7 fw-bold text-gray-800">Sou morador da Rua Celso Araújo e gostaria de denunciar o vandalismo frequente na praça vizinha.</span>
-                                <!--end::Title-->
-                            </div>
-                            <!--end::Timeline content-->
+                            </span>
                         </div>
-                        <!--end::Timeline item-->
-                        <!--begin::Timeline item-->
-                        <div class="timeline-item align-items-center">
-                            <!--begin::Timeline line-->
-                            <div class="timeline-line w-40px"></div>
-                            <!--end::Timeline line-->
-                            <!--begin::Timeline icon-->
-                            <div class="timeline-icon" style="margin-left: 8px">
-                                <!--begin::Svg Icon-->
-                                <span class="svg-icon svg-icon-primary svg-icon-2x">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path opacity="0.3" d="M16.5 9C16.5 13.125 13.125 16.5 9 16.5C4.875 16.5 1.5 13.125 1.5 9C1.5 4.875 4.875 1.5 9 1.5C13.125 1.5 16.5 4.875 16.5 9Z" fill="currentColor"/>
-                                        <path d="M9 16.5C10.95 16.5 12.75 15.75 14.025 14.55C13.425 12.675 11.4 11.25 9 11.25C6.6 11.25 4.57499 12.675 3.97499 14.55C5.24999 15.75 7.05 16.5 9 16.5Z" fill="currentColor"/>
-                                        <rect x="7" y="6" width="4" height="4" rx="2" fill="currentColor"/>
-                                    </svg>
-                                </span>
-                                <!--end::Svg Icon-->
-                            </div>
-                            <!--end::Timeline icon-->
-                            <!--begin::Timeline content-->
-                            <div class="timeline-content m-0">
-                                <!--begin::Title-->
-                                <span class="fs-7 text-gray-400 text-uppercase fw-semibold d-block">Em 24/11/2022 Ouvidoria respondeu:</span>
-                                <!--end::Title-->
-                                <!--begin::Title-->
-                                <span class="fs-7 fw-bold text-gray-800">Poderia nos repassar mais detalhes? Se possível faça upload de fotos do ocorrido.</span>
-                                <!--end::Title-->
-                            </div>
-                            <!--end::Timeline content-->
+                        <!--end::Symbol-->
+                        <div>
+                          <div class="p-5 mb-1 rounded" style="background-color: #f5f6f7;">
+                            <p class="text-muted mb-0">Ouvidoria:</p>
+                            <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                          </div>
+                          <div class="small mb-0 text-muted float-start">12:00 PM | Aug 13</div>
                         </div>
-                        <!--end::Timeline item-->
                     </div>
-                    <!--end::Timeline-->
                 </div>
-                <!--end::Row-->
+                <span class="badge badge-light badge-circle mt-2">2</span>
+
             </div>
             <!--end::Card body-->                 
         </div>
