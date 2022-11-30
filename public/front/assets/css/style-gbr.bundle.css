@@ -5,11 +5,11 @@
   --gb-color-1: #166353;
   --gb-color-2: #14753c;
   --gb-color-1-inverse: white;
-  --gb-font-1: 'Google Sans';
+  --gb-font-2: 'Google Sans Text';
   --gb-texture-1: url('../media/patterns/wavecut.png');
 }
 .gbr-font-1 {
-  font-family: var(--gb-font-1) !important;
+  font-family: var(--gb-font-2) !important;
 }
 .gbr-texture-1 {
   background-image: var(--gb-texture-1) !important;

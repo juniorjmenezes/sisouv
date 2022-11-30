@@ -9,13 +9,13 @@
             <!--begin::Card header-->
             <div class="card-header">
                 <!--begin::Title-->
-                <div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Faça sua Manifestação!</div>
+                <div class="card-title fw-bold text-gray-900 text-uppercase fs-7">Faça sua Manifestação!</div>
                 <!--end::Title-->
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
                     <div class="form-check form-switch form-check-custom form-check-solid">
                         <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault"/>
-                        <label class="form-check-label text-uppercase gbr-font-1 fs-7" for="flexSwitchDefault">
+                        <label class="form-check-label text-uppercase fs-7" for="flexSwitchDefault">
                             Manifestação Anônima
                         </label>
                     </div>
@@ -149,7 +149,7 @@
             <!--begin::Card header-->
             <div class="card-header">
                 <!--begin::Title-->
-                <div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Aqui você pode manifestar:</div>
+                <div class="card-title fw-bold text-gray-900 text-uppercase fs-7">Aqui você pode manifestar:</div>
                 <!--end::Title-->
             </div>
             <!--end::Card header-->

@@ -10,7 +10,7 @@
 				<!--begin::Card body-->
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Faça sua Manifestação</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase fs-7">Faça sua Manifestação</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-secondary w-100px mb-6"></div>
@@ -36,7 +36,7 @@
 				<!--begin::Card body-->
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Acompanhar Manifestação</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase fs-7">Acompanhar Manifestação</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-secondary w-100px mb-6"></div>
@@ -72,7 +72,7 @@
 				<!--begin::Card body-->
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Estatísticas de Ouvidoria</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase fs-7">Estatísticas de Ouvidoria</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-primary w-100px mb-6"></div>
@@ -188,7 +188,7 @@
 			<div class="card card-flush">
 				<div class="card-body">
 					<!--begin::Title-->
-					<div class="card-title fw-bold text-gray-900 text-uppercase gbr-font-1 fs-7">Canais de Atendimento</div>
+					<div class="card-title fw-bold text-gray-900 text-uppercase fs-7">Canais de Atendimento</div>
 					<!--end::Title-->
 					<!--begin::Separator-->
 					<div class="separator border-secondary w-100px mb-6"></div>
